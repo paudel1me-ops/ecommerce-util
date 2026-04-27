@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Design tokens ─────────────────────────────────────────────────────── */
+@layer base {
+  :root {
+    --brand-primary:        #1a1a2e;
+    --brand-secondary:      #e8b86d;
+    --brand-accent:         #16213e;
+    --origin-verified:      #16a34a;
+    --origin-flagged:       #d97706;
+    --origin-rejected:      #dc2626;
+    --origin-unknown:       #6b7280;
+    --surface:              #f9fafb;
+    --surface-elevated:     #ffffff;
+    --border:               #e5e7eb;
+    --text-primary:         #111827;
+    --text-secondary:       #6b7280;
+    --text-muted:           #9ca3af;
+    --radius:               0.5rem;
+  }
+
+  .dark {
+    --surface:              #111827;
+    --surface-elevated:     #1f2937;
+    --border:               #374151;
+    --text-primary:         #f9fafb;
+    --text-secondary:       #9ca3af;
+    --text-muted:           #6b7280;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: var(--surface);
+    color: var(--text-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Ensure sections and divs don't overflow viewport horizontally */
+  html, body {
+    overflow-x: hidden;
+  }
+}
+
+.my-masonry-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -30px;
+  width: auto;
+}
+
+.my-masonry-grid_column {
+  padding-left: 30px;
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column > div {
+  margin-bottom: 30px;
+}

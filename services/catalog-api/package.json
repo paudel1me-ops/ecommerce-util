@@ -1,0 +1,1 @@
+{ "name": "@wmt/catalog-api", "version": "0.0.1", "private": true, "description": "Product catalog microservice — Wave 3", "scripts": { "dev": "echo 'catalog-api: not yet implemented'", "build": "echo 'ok'", "test": "echo 'ok'", "lint": "echo 'ok'", "typecheck": "echo 'ok'" } }

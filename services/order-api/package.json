@@ -1,0 +1,1 @@
+{ "name": "@wmt/order-api", "version": "0.0.1", "private": true, "description": "Order management service — Wave 6", "scripts": { "dev": "echo 'order-api: not yet implemented'", "build": "echo 'ok'", "test": "echo 'ok'", "lint": "echo 'ok'", "typecheck": "echo 'ok'" } }

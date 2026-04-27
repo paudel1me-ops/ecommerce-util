@@ -1,0 +1,1 @@
+{ "name": "@wmt/search-api", "version": "0.0.1", "private": true, "description": "Hybrid search service — Wave 4", "scripts": { "dev": "echo 'search-api: not yet implemented'", "build": "echo 'ok'", "test": "echo 'ok'", "lint": "echo 'ok'", "typecheck": "echo 'ok'" } }

@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Origin Market — dev",
+			"type": "shell",
+			"command": "npm run dev",
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Run Origin Market",
+			"type": "shell",
+			"command": "npm run dev",
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Next.js Production Server",
+			"type": "shell",
+			"command": "npx next start -p 3000",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}

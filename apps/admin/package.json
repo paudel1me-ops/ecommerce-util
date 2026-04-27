@@ -1,0 +1,1 @@
+{ "name": "@wmt/admin", "version": "0.0.1", "private": true, "description": "Admin portal — MODULE 33", "scripts": { "dev": "echo 'admin: not yet implemented'", "build": "echo 'ok'", "test": "echo 'ok'", "lint": "echo 'ok'", "typecheck": "echo 'ok'" } }

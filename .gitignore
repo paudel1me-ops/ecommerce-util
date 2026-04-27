@@ -1,0 +1,36 @@
+# Monorepo
+node_modules/
+.turbo/
+.cache/
+
+# Build outputs
+dist/
+.next/
+out/
+
+# Env files
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Test outputs
+coverage/
+playwright-report/
+test-results/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Supabase
+supabase/.branches/
+supabase/.temp/
+
+# Locks (keep web's lock, ignore root)
+package-lock.json
+**.env**
